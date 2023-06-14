@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weights_array">
+        <item>Select</item>
+    <item>kg</item>
+    <item>lb</item>
+    <item>g</item>
+    <item>ton</item>
+    <item>stone</item>
+    <item>ounce</item>
+</string-array>
+
+    <string-array name="length_array">
+        <item>Select</item>
+        <item>km</item>
+        <item>m</item>
+        <item>cm</item>
+        <item>mm</item>
+        <item>yard</item>
+        <item>mile</item>
+        <item>foot</item>
+        <item>inch</item>
+    </string-array>
+
+    <string-array name="volume_array">
+        <item>Select</item>
+        <item>L</item>
+        <item>ml</item>
+        <item>gallon</item>
+        <item>pint</item>
+        <item>cup</item>
+        <item>quart</item>
+        <item>fluid ounce</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>Select</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>CAD</item>
+        <item>INR</item>
+        <item>AED</item>
+    </string-array>
+
+    <string-array name="cooking_array">
+        <item>Select</item>
+        <item>ounce</item>
+        <item>gram</item>
+        <item>cup</item>
+        <item>tablespoon</item>
+        <item>teaspoon</item>
+    </string-array>
+
+    <string-array name="area_array">
+        <item>Select</item>
+        <item>Square meter</item>
+        <item>Square mile</item>
+        <item>Square yard</item>
+        <item>Square foot</item>
+        <item>Square inch</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+    </string-array>
+
+    <string-array name="byte_array">
+        <item>Select</item>
+        <item>b</item>
+        <item>B</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>Kb</item>
+        <item>Mb</item>
+        <item>Gb</item>
+    </string-array>
+
+    <string-array name="temperature_array">
+        <item>Select</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+</resources>

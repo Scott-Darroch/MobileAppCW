@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MobileAppCW</string>
+    <string name="what_unit_do_you_wish_it_to_be_converted_to">What unit do you wish it to be converted to:</string>
+    <string name="convert">CONVERT!</string>
+    <string name="return_to_main_menu">Return to main menu</string>
+    <string name="choose_the_amount_you_would_like_to_convert">Choose the amount you would like to convert:</string>
+    <string name="choose_you_starting_unit">Choose you starting unit:</string>
+    <string name="welcome_to_the_temperature_conversion_activity">Welcome to the temperature conversion activity.</string>
+    <string name="byte_and_bit_conversion">BYTE AND BIT CONVERSION.</string>
+    <string name="cooking">Cooking</string>
+    <string name="area">Area</string>
+    <string name="volume">Volume</string>
+    <string name="unit_converter_app">Unit Converter App</string>
+    <string name="unit_type">Unit Type:</string>
+    <string name="length">Length</string>
+    <string name="currency">Currency</string>
+    <string name="weight">Weight</string>
+    <string name="temperature">Temperature</string>
+    <string name="history">History</string>
+    <string name="byte1">byte</string>
+</resources>

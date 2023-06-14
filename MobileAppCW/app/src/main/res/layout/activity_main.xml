@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8C55E"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/cookingbutton2"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/cooking"
+        android:textColor="#000000"
+        app:backgroundTint="#F36257"
+        app:layout_constraintBottom_toTopOf="@+id/tempbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/volumebutton2" />
+
+    <Button
+        android:id="@+id/areabutton"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="26dp"
+        android:text="@string/area"
+        android:textColor="#000000"
+        app:backgroundTint="#F36257"
+        app:layout_constraintBottom_toTopOf="@+id/bytebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currencybutton" />
+
+    <Button
+        android:id="@+id/volumebutton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/volume"
+        android:textColor="#0B0A0A"
+        app:backgroundTint="#F36257"
+        app:layout_constraintBottom_toTopOf="@+id/cookingbutton2"
+        app:layout_constraintEnd_toStartOf="@+id/currencybutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightbutton" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/unit_converter_app"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/unit_type"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/weightbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/lengthbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/length"
+        android:textColor="#0B0B0B"
+        app:backgroundTint="#F36257"
+        app:layout_constraintBottom_toTopOf="@+id/currencybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/weightbutton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/currencybutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="33dp"
+        android:text="@string/currency"
+        android:textColor="#090808"
+        app:backgroundTint="#F36257"
+        app:layout_constraintBottom_toTopOf="@+id/areabutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/volumebutton2"
+        app:layout_constraintTop_toBottomOf="@+id/lengthbutton" />
+
+    <Button
+        android:id="@+id/weightbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/weight"
+        android:textColor="#070707"
+        app:backgroundTint="#F36257"
+        app:layout_constraintBottom_toTopOf="@+id/volumebutton2"
+        app:layout_constraintEnd_toStartOf="@+id/lengthbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/tempbutton"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="160dp"
+        android:text="@string/temperature"
+        android:textColor="#000000"
+        app:backgroundTint="#F36257"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cookingbutton2" />
+
+    <Button
+        android:id="@+id/bytebutton"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="159dp"
+        android:text="@string/byte1"
+        android:textColor="#000000"
+        app:backgroundTint="#F36257"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/areabutton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
